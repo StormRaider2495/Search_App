@@ -2,13 +2,21 @@
 <html>
 <head>
   <title>Search</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 <body>
-  <div class="searchField">
-    <label for="searchFor">Search For</label>
-    <input type="text" id="searchFor">
+  <div id="search-box">
+    <div class="search-container">
+      <label for="searchFor" id="searchLabel"></label>
+      <input type="text" id="searchFor" placeholder="Enter your search query..." autofocus autocomplete>
+    </div>
+    <div class="chkbox">
+      <input type="checkbox" id="caseSensitive"><label for="caseSensitive">Case Sensitive</label>
+    </div>
   </div>
   <div class="search">
     <p>[Where other ]men blindly follow the truth, Remember, nothing is true.Where other men are
@@ -16,7 +24,7 @@
       serve the light. We are assassins.</p>
   </div>
 
-  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+
   <script src="search.js"></script>
 </body>
 </html>

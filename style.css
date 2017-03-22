@@ -1,6 +1,65 @@
 .search{
-  width: 50%;
   font-family: monospace;
   font-size: 15px;
   margin: 5%;
+}
+
+#search-box {
+    /*display: inline-block;*/
+    height: 55px;
+    width: 50%;
+    padding: 1%;
+    border: 5px solid #455A64;
+    border-radius: 20%;
+    text-align: center;
+    background-image: url(http://jfbholding.com/images/image-slider-2.jpg);
+     display: none;
+    transition: display 2s ease-in 0.5s;
+    position: relative;
+    left: 50%;
+    margin-left: -25%;
+    /*position: absolute;
+    top: 50%;
+    margin-top: -5%;*/
+}
+
+#searchLabel {
+    background-image: url(http://findicons.com/files/icons/575/pleasant/128/search.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 2%;
+    top: 25%;
+}
+
+mark{
+  color: #000;
+  background: #75f185;;
+}
+
+.search-container {
+    position: relative;
+    display: inline-block;
+    padding-top: 1%;
+    width: 40%;
+}
+#searchFor {
+    height: 30px;
+    width: 85%;
+    padding-left: 15%;
+    border: 2px solid #ddd;
+}
+
+
+.chkbox {
+    display: inline-block;
+    float: right;
+    position: absolute;
+    bottom: 1%;
+    right: 10%;
+    color: seashell;
+    background-color: rgba(15, 15, 15, 0.65);
 }
